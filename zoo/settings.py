@@ -128,4 +128,4 @@ try:
     from .local_settings import *
 
 except ImportError:
-    raise exception ('A local_settings file MUST exist in otder to use this project')
+    raise Exception ('A local_settings file MUST exist in otder to use this project')
